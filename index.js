@@ -12,6 +12,7 @@ const { questions } = require("./utils/questions");
 const init = async () => {
   const answers = await inquirer.prompt(questions);
   console.log("success");
+  writeToFile("test.md", "Testing my first readme generator");
 };
 
 // Function call to initialize app
