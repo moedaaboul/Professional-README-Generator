@@ -1,6 +1,6 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {}
+const { badges, renderLicenseBadge } = require("./badges");
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
@@ -25,6 +25,8 @@ const generateMarkdown = (data) => {
   } = data;
 
   return `# ${title}
+
+${renderLicenseBadge(license)}
 
 ## Description
 

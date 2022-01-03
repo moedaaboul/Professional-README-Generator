@@ -1,5 +1,7 @@
 # Professional README
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 ## Description
 
 A professional README generator
@@ -16,7 +18,7 @@ A professional README generator
 
 ## Installation
 
-Run using node index.js
+
 
 ## Usage
 
@@ -28,16 +30,16 @@ This work is licensed under
 
 ## Contributing
 
-This project is completed
+
 
 ## Tests
 
-Install npm using `npm install` and then run `node index.js`
+
 
 ## Questions
 
 Created by  -[@moedaaboul](https://github.com/moedaaboul)
-            -
+            
 
-- Feel free to contact me!
+- Feel free to contact me via [moedaaboul@gmail.com](moedaaboul@gmail.com)!
 
