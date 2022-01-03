@@ -9,9 +9,10 @@ const { questions } = require("./utils/questions");
 // function writeToFile(fileName, data) {}
 
 // TODO: Create a function to initialize app
-function init() {
-  inquirer.prompt(questions).then((response) => console.log("success"));
-}
+const init = async () => {
+  const answers = await inquirer.prompt(questions);
+  console.log("success");
+};
 
 // Function call to initialize app
 init();
