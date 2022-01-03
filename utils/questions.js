@@ -6,7 +6,7 @@ const questions = [
   },
   {
     type: "input",
-    message: "Enter description",
+    message: "Enter project description",
     name: "description",
   },
   {
@@ -21,7 +21,7 @@ const questions = [
   },
   {
     type: "input",
-    message: "Enter contribution guidlines",
+    message: "Enter contribution guidelines",
     name: "contributing",
   },
   {
@@ -33,7 +33,7 @@ const questions = [
     type: "list",
     message: "Choose license",
     name: "license",
-    choices: ["MIT", "GPLv2", "Apache", "GPLv3", "BSD 3-clause"],
+    choices: ["MIT", "GPLv2", "Apache", "GPLv3", "BSD 3-clause", "No License"],
   },
   {
     type: "input",

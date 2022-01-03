@@ -1,10 +1,10 @@
-# Professional README
+# Professional README Generator
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
 
-A professional README generator
+A professional README Generator using NodeJS
 
 ## Table of Contents
 
@@ -13,33 +13,32 @@ A professional README generator
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [Tests](#tests)
-- [License](#license)
 - [Questions](#questions)
+- [License](#license)
 
 ## Installation
 
-
+    ​Install dependencies using `npm install`
 
 ## Usage
 
-
-
-## License
-This work is licensed under
-[MIT](https://github.com/moedaaboul/moedaaboul.github.io/blob/main/LICENSE).
+    Run app using `node index.js`
 
 ## Contributing
 
-
+Run app using `node index.js` to see output generated from inquiry repsonses
 
 ## Tests
 
-
+    ​Run app using `node index.js` to see output generated from inquiry repsonses
 
 ## Questions
 
-Created by  -[@moedaaboul](https://github.com/moedaaboul)
+Created by: [@moedaaboul](https://github.com/moedaaboul)
             
+Feel free to contact me via [muhammad.daaboul1989@gmail.com](muhammad.daaboul1989@gmail.com) !
 
-- Feel free to contact me via [moedaaboul@gmail.com](moedaaboul@gmail.com)!
+## License
+This work is licensed under
+[MIT](#).
 

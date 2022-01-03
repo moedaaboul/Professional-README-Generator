@@ -1,15 +1,13 @@
-// TODO: Include packages needed for this application
+//  packages needed for this application
 const inquirer = require("inquirer");
+// function writeToFile
 const { writeToFile } = require("./utils/file");
+//  array of questions for user input
 const { questions } = require("./utils/questions");
+// function to write README file
 const generateMarkdown = require("./utils/generateMarkdown");
 
-// TODO: Create an array of questions for user input
-
-// TODO: Create a function to write README file
-// function writeToFile(fileName, data) {}
-
-// TODO: Create a function to initialize app
+// function to initialize app
 const init = async () => {
   const answers = await inquirer.prompt(questions);
   const markdown = generateMarkdown(answers);
@@ -17,5 +15,5 @@ const init = async () => {
   console.log("Successfully created your professional README!");
 };
 
-// Function call to initialize app
+// initialize app
 init();

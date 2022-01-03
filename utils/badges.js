@@ -27,8 +27,12 @@ const badges = [
 ];
 
 function renderLicenseBadge(license) {
-  const [badge] = badges.filter((e) => license === e.key);
-  return badge.badgeLink;
+  if (license !== "No License") {
+    const [badge] = badges.filter((e) => license === e.key);
+    return badge.badgeLink;
+  } else {
+    return ``;
+  }
 }
 
 module.exports = { badges, renderLicenseBadge };
