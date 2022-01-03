@@ -26,9 +26,46 @@ const generateMarkdown = (data) => {
 
   return `# ${title}
 
-# ${description} 
+## Description
 
-# ${installation}
+${description}
+
+## Table of Contents
+
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [License](#license)
+- [Questions](#questions)
+
+## Installation
+
+${installation}
+
+## Usage
+
+${usage}
+
+## License
+This work is licensed under
+[${license}](https://github.com/${username}/${username}.github.io/blob/main/LICENSE).
+
+## Contributing
+
+${contributing}
+
+## Tests
+
+${tests}
+
+## Questions
+
+Created by  -[@${username}](https://github.com/${username})
+            -[${email}](${email})
+
+- Feel free to contact me!
 
 `;
 };
