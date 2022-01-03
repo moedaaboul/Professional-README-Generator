@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a professional readme
+A professional README generator
 
 ## Table of Contents
 
@@ -16,7 +16,7 @@ This is a professional readme
 
 ## Installation
 
-
+Run using node index.js
 
 ## Usage
 
@@ -28,16 +28,16 @@ This work is licensed under
 
 ## Contributing
 
-
+This project is completed
 
 ## Tests
 
-
+Install npm using `npm install` and then run `node index.js`
 
 ## Questions
 
 Created by  -[@moedaaboul](https://github.com/moedaaboul)
-            -[moedaaboul@gmail.com](moedaaboul@gmail.com)
+            -
 
 - Feel free to contact me!
 

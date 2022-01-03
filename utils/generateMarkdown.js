@@ -63,9 +63,9 @@ ${tests}
 ## Questions
 
 Created by  -[@${username}](https://github.com/${username})
-            -[${email}](${email})
+            
 
-- Feel free to contact me!
+- Feel free to contact me via [${email}](${email})!
 
 `;
 };

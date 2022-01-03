@@ -30,9 +30,10 @@ const questions = [
     name: "tests",
   },
   {
-    type: "input",
+    type: "list",
     message: "Choose license",
     name: "license",
+    choices: ["MIT", "GPLv2", "Apache", "GPLv3", "BSD 3-clause"],
   },
   {
     type: "input",
