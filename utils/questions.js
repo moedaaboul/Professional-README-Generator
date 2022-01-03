@@ -11,12 +11,12 @@ const questions = [
   },
   {
     type: "input",
-    message: "Enter installation instructions",
+    message: "Populate code block for installing dependencies",
     name: "installation",
   },
   {
     type: "input",
-    message: "Enter usage information",
+    message: "Enter code block for running the application",
     name: "usage",
   },
   {

@@ -4,7 +4,7 @@
 
 ## Description
 
-A professional README Generator using NodeJS
+A professional README Generator using NodeJS.
 
 ## Table of Contents
 
@@ -18,19 +18,23 @@ A professional README Generator using NodeJS
 
 ## Installation
 
-    ​Install dependencies using `npm install`
+​Install dependencies using: 
+
+    npm install
 
 ## Usage
 
-    Run app using `node index.js`
+Run app using: 
+
+    node index.js
 
 ## Contributing
 
-Run app using `node index.js` to see output generated from inquiry repsonses
+Project is completed.
 
 ## Tests
 
-    ​Run app using `node index.js` to see output generated from inquiry repsonses
+Run app using `node index.js` to see output generated from inquiry repsonses
 
 ## Questions
 

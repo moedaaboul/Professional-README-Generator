@@ -37,9 +37,13 @@ ${renderLicenseLink(license)}
 
 ## Installation
 
+​Install dependencies using: 
+
     ${installation}
 
 ## Usage
+
+Run app using: 
 
     ${usage}
 
@@ -49,7 +53,7 @@ ${contributing}
 
 ## Tests
 
-    ${tests}
+${tests}
 
 ## Questions
 
