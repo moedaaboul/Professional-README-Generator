@@ -12,7 +12,6 @@ A professional README Generator using NodeJS.
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [Tests](#tests)
 - [Questions](#questions)
 - [License](#license)
 
@@ -30,11 +29,11 @@ Run app using:
 
 ## Contributing
 
-Project is completed.
+Project is completed
 
 ## Tests
 
-Run app using `node index.js` to see output generated from inquiry repsonses
+
 
 ## Questions
 
