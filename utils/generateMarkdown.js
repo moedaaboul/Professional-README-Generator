@@ -28,13 +28,13 @@ const generateMarkdown = (data) => {
   } = data;
 
   const tableofContents = [
-    '[Description](#description)',
-    '[Installation](#installation)',
-    '[Usage](#usage)',
+    renderLink(description, 'description'),
+    renderLink(installation, 'installation'),
+    renderLink(usage, 'usage'),
     renderLink(contributing, 'contributing'),
     renderLink(tests, 'tests'),
     '[Questions](#questions)',
-    renderLicenseLink(license),
+    renderLicenseLink(license, 'license'),
   ]
     .filter((e) => e !== '')
     .map((e) => '- ' + e)
