@@ -1,9 +1,18 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-const { badges, renderLicenseBadge } = require('./badges');
+const { renderLicenseBadge } = require('./badges');
 const { renderLicenseLink, renderLicenseSection } = require('./renderLicense');
 const renderLink = require('./renderLink');
-
+const {
+  renderTitle,
+  renderContributingSection,
+  renderTestsSection,
+  renderQuestionsSection,
+  renderDescriptionSection,
+  renderTableofContents,
+  renderInstallationSection,
+  renderUsageSection,
+} = require('./renderSections');
 // TODO: Create a function to generate markdown for README
 const generateMarkdown = (data) => {
   const {
@@ -31,43 +40,23 @@ const generateMarkdown = (data) => {
     .map((e) => '- ' + e)
     .join('\n');
 
-  return `# ${title}
+  return `${renderTitle(title)}
 
 ${renderLicenseBadge(license)}
 
-## Description
+${renderDescriptionSection(description)}
 
-${description}
+${renderTableofContents(tableofContents)}
 
-## Table of Contents
+${renderInstallationSection(installation)}
 
-${tableofContents}
+${renderUsageSection(usage)}
 
-## Installation
+${renderContributingSection(contributing)}
 
-​Install dependencies using: 
+${renderTestsSection(tests)}
 
-    ${installation}
-
-## Usage
-
-Run app using: 
-
-    ${usage}
-
-## Contributing
-
-${contributing}
-
-## Tests
-
-${tests}
-
-## Questions
-
-Created by: [@${username}](https://github.com/${username})
-            
-Feel free to contact me via [${email}](${email}) !
+${renderQuestionsSection(username, email, license)}
 
 ${renderLicenseSection(license)}
 
