@@ -34,7 +34,9 @@ Project is completed.
 
 ## Tests
 
-Pending
+Demo for full README inputs [_here_](https://drive.google.com/file/d/11QEmsUKNf9PHS-sd8g_BUm2QojU78SUb/view?usp=sharing).
+
+Demo for README inputs with no license selected [_here_](https://drive.google.com/file/d/1AvM1fUZzRVNDrEqZ-khqFN9EWrZ9ksmF/view?usp=sharing).
 
 ## Questions
 
