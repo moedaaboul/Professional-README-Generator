@@ -27,6 +27,7 @@ const generateMarkdown = (data) => {
     email,
   } = data;
 
+  // returns ToC as per selection (i.e. non-blanks) or in the case of license link (no license)
   const tableofContents = [
     renderLink(description, 'description'),
     renderLink(installation, 'installation'),
@@ -56,7 +57,7 @@ ${renderContributingSection(contributing)}
 
 ${renderTestsSection(tests)}
 
-${renderQuestionsSection(username, email, license)}
+${renderQuestionsSection(username, email)}
 
 ${renderLicenseSection(license)}
 

@@ -1,3 +1,4 @@
+// questions prompted via inquirer
 const questions = [
   {
     type: 'input',
