@@ -11,6 +11,7 @@ A professional README Generator using NodeJS.
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Tests](#tests)
 - [Questions](#questions)
 - [License](#license)
 
@@ -28,13 +29,14 @@ Run app using:
 
 
 
-
+## Tests
+Pending
 
 ## Questions
   
-Created by: [@moedaaboul](https://github.com/moedaaboul)
+
                 
-Feel free to contact me via [muhammad.daaboul1989@gmail.com](muhammad.daaboul1989@gmail.com) !
+Feel free to contact me !
 
 ## License
 This work is licensed under

@@ -16,12 +16,20 @@ ${tests}`;
   }
 };
 
-const renderQuestionsSection = (username, email, license) => {
+const renderQuestionsSection = (username, email) => {
+  let createdByString = '';
+  let emailString = '';
+  if (username) {
+    createdByString = `Created by: [@${username}](https://github.com/${username})`;
+  }
+  if (email) {
+    emailString = `via [${email}](${email})`;
+  }
   return `## Questions
   
-Created by: [@${username}](https://github.com/${username})
+${createdByString}
                 
-Feel free to contact me via [${email}](${email}) !`;
+Feel free to contact me ${emailString}!`;
 };
 
 const renderDescriptionSection = (description) => {
