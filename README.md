@@ -4,7 +4,7 @@
 
 ## Description
 
-A professional README Generator using NodeJS and inquirier package.
+A dynamic CLI application that generates a README.md file based on user input using the inquirer npm package and NodeJS.
 
 ## Table of Contents
 
@@ -13,6 +13,7 @@ A professional README Generator using NodeJS and inquirier package.
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [Tests](#tests)
+- [Demo](#demo)
 - [Questions](#questions)
 - [License](#license)
 
@@ -30,9 +31,13 @@ Run app using:
 
 ## Contributing
 
-Project is completed.
+Project has been completed.
 
 ## Tests
+
+Pending
+
+## Demo
 
 Demo for full README inputs [_here_](https://drive.google.com/file/d/11QEmsUKNf9PHS-sd8g_BUm2QojU78SUb/view?usp=sharing).
 
