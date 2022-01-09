@@ -11,7 +11,7 @@ const generateMarkdown = require('./utils/generateMarkdown');
 const init = async () => {
   const answers = await inquirer.prompt(questions);
   const markdown = generateMarkdown(answers);
-  writeToFile('test.md', markdown);
+  writeToFile('./sample/README.md', markdown);
   console.log('Successfully created your professional README!');
 };
 
